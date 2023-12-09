@@ -4,10 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML + CSS</title>
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>This is a simple HTML + CSS template!</h1>
+    <div class="header">
+      <div class="menu-icon-wrapper">
+        <div class="dots-wrapper">
+          <div class="light-dot"></div>
+          <div class="dark-dot"></div>
+        </div>
+        <div class="dots-wrapper">
+          <div class="dark-dot"></div>
+          <div class="light-dot"></div>
+        </div>
+      </div>
+      <h1>My wallets</h1>
+      <div class="calender-icon-wrapper">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 17C16.1046 17 17 16.1046 17 15C17 13.8954 16.1046 13 15 13C13.8954 13 13 13.8954 13 15C13 16.1046 13.8954 17 15 17Z" fill="currentColor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM5 18V7H19V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18Z" fill="currentColor"/></svg>
+      </div>
+    </div>
+    <div class="balance-wrapper">
+      <h3>TOTAL BALANCE</h3>
+      <h1>65,000.00 <span>USD</span></h1>
+    </div>
+    <div class="hr" ></div>
+    <div class="activity-wrapper">
+      <h3>Your activity</h3>
+      <div class="expense-button">
+        <h4>
+          Expense
+        </h4>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z" fill="currentColor" /></svg>
+      </div>
+    </div>
+    <div class="graph-wrapper">
+      <img src="/graph.png" alt="Graph" class="graph">
+      <div class="months-wrapper">
+        <h3>OCT</h3>
+        <h3  id="active-month">NOV</h3>
+        <h3>DEC</h3>
+        <h3>JAN</h3>
+      </div>
+    </div>
+    <div class="cards-wrapper">
+      <div class="card">
+        <div class="top">
+          <img src="visa_white.jpg" alt="VISA Icon">
+          <span>09/12</span>
+        </div>
+        <div class="bottom">
+          <h3>Credit Card</h3>
+          <span>●●●●●●4354</span>
+        </div>
+      </div>
+  
+      <div class="card card-two">
+        <div class="top">
+          <img src="visa_white.jpg" alt="VISA Icon">
+          <span>09/12</span>
+        </div>
+        <div class="bottom">
+          <h3>Credit Card</h3>
+          <span>●●●●●●4354</span>
+        </div>
+      </div>
+  
+      <div class="card card-two">
+        <div class="top">
+          <img src="visa_white.jpg" alt="VISA Icon">
+          <span>09/12</span>
+        </div>
+        <div class="bottom">
+          <h3>Credit Card</h3>
+          <span>●●●●●●4354</span>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
